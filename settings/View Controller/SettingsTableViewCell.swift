@@ -31,10 +31,8 @@ class SettingsTableViewCell: UITableViewCell {
     }
     
     
-    
-    
-    
     //MARK: - Action
     @IBAction func settingSwitchToggled(_ sender: Any) {
+        delegate?.settingSwitchToggled(for: self)
     }
 }

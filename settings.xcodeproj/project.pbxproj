@@ -16,7 +16,6 @@
 		0E46778628E4D1E4003B48B3 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46778528E4D1E4003B48B3 /* Setting.swift */; };
 		0E46778828E4D28D003B48B3 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46778728E4D28D003B48B3 /* SettingController.swift */; };
 		0E46778A28E4DD87003B48B3 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46778928E4DD87003B48B3 /* SettingsTableViewCell.swift */; };
-		0E46778C28E4F35A003B48B3 /* random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46778B28E4F35A003B48B3 /* random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		0E46778528E4D1E4003B48B3 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		0E46778728E4D28D003B48B3 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		0E46778928E4DD87003B48B3 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
-		0E46778B28E4F35A003B48B3 /* random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = random.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 				0E46777D28E4B2C5003B48B3 /* Model */,
 				0E46777B28E4B179003B48B3 /* Resources */,
 				0E46777C28E4B183003B48B3 /* Storyboards */,
-				0E46778B28E4F35A003B48B3 /* random.swift */,
 			);
 			path = settings;
 			sourceTree = "<group>";
@@ -190,7 +187,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E46778C28E4F35A003B48B3 /* random.swift in Sources */,
 				0E46778828E4D28D003B48B3 /* SettingController.swift in Sources */,
 				0E46778628E4D1E4003B48B3 /* Setting.swift in Sources */,
 				0E46778A28E4DD87003B48B3 /* SettingsTableViewCell.swift in Sources */,

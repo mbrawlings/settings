@@ -15,7 +15,7 @@ class SettingController {
         return [music, appStore, books]
     }()
     
-    func toggleIsOn(setting: Setting) {
+    static func toggleIsOn(setting: Setting) {
         setting.isOn = !setting.isOn
     }
 }

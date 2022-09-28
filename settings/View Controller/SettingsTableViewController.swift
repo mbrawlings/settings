@@ -30,11 +30,13 @@ class SettingsTableViewController: UITableViewController {
     }
 }
 
-//extension SettingsTableViewController: SettingCellDelegate {
-//    func settingSwitchToggled(for cell: SettingsTableViewCell) {
-//        guard let indexPath = tableView.indexPath(for: cell) else { return }
-//        let setting = SettingController.settings[indexPath.row]
-//    }
-//    
-//    
-//}
+extension SettingsTableViewController: SettingCellDelegate {
+    func settingSwitchToggled(for cell: SettingsTableViewCell) {
+        guard let indexPath = tableView.indexPath(for: cell) else { return }
+        let setting = SettingController.settings[indexPath.row]
+        SettingController.toggleIsOn(setting: setting)
+        cell.updateViews(setting: setting)
+    }
+    
+    
+}
